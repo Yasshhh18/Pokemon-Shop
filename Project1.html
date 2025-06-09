@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Shop</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: bold;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+      }
+      body{
+        background-color: #2c2c2c;
+      }
+      header{
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 2px solid black;
+        align-items: center;
+        }
+        ul {
+            padding: 20px 10px;
+        
+            display: flex;
+           list-style-type: none;
+        }
+        ul li a{
+            padding: 0px 20px;
+            text-decoration: none;
+            border: 1px solid whitesmoke;
+            margin: 0 10px;
+            border-radius: 100px;
+        }
+        .logo img {
+           
+           height: 60px;
+           zoom: 1.2;
+        
+        }
+         a:hover {
+            background-color: white ;
+            color: #2c2c2c;
+            border: 5px  solid white;
+            
+        }
+        .signup:hover {
+            background-color: yellow;
+            color: #2c2c2c;
+        }
+        main {
+            display: flex;
+            height: 600px;
+            align-items: center;
+            flex-wrap: wrap;
+           
+        }
+        .contentleft {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+            
+        }
+        .contentMid {
+            flex: 2;
+            text-align: center;
+        }
+        .contentright {
+            flex: 1;
+            text-align: center;
+        }
+        .add-to-cart-button {
+            background-color: #2c2c2c;
+            color: white;
+            border: 1px solid white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .BuyNow {
+            background-color: white;
+            color: #2c2c2c;
+            border: 1px solid #2c2c2c;
+            padding: 10px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+        }   
+        .BuyNow:hover {
+            background-color: yellow;
+            color: red;
+            border: 5px solid white;
+        }
+        h2{
+            font-size: 44px;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+            border: white solid 2px;
+            border-radius: 10px;
+            
+       }
+        p {
+            font-size: 20px;
+            text-align: center;
+            padding: 0 20px;
+            line-height: 1.5;
+            text-decoration: underline;
+            margin-top: 60px;
+        }
+      
+
+    </style>
+</head> 
+<body>
+    <header>
+       <div class="logo"> <img src="International_Pokémon_logo.svg.png" alt="Pokemon">  </div>
+         <nav>
+            <ul> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Buy Now</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#"  class="signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contentleft">
+             <h2>
+              Pikachu 
+            </h2>
+           
+         </div>
+        <div class="contentMid">
+            <p>
+                Pikachu is an Electric-type Pokémon introduced in Generation I. It is known as the Mouse Pokémon. Pikachu evolves from Pichu when leveled up with high friendship and evolves into Raichu when exposed to a Thunder Stone. Pikachu is one of the most recognizable Pokémon and serves as the franchise's mascot.
+            </p><br>
+            <button style="align-self:center;" class="BuyNow">BUY NOW</button>
+           
+        </div>
+        <div class="contentright">
+            <img src="pikachu.png" alt="Pikachu" style="display: block; width: 200px; height: 200px; border-radius: 10px; margin: 0 auto; border: white solid 1px;">
+        
+        </div>
+
+    </main>
+</body>
+</html>
