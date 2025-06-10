@@ -15,7 +15,7 @@ A clean and dark-themed single-page product layout featuring **Pikachu**, built 
 
 ## 📸 Screenshot
 
-![Screenshot](pikachu.png)
+![Screenshot](Pokemon Shop SS.png)
 
 ## 📂 Folder Structure
 
