@@ -1,0 +1,21 @@
+# Pokémon Shop 🧢⚡
+
+A clean and dark-themed single-page product layout featuring **Pikachu**, built using pure HTML and CSS. This is a beginner front-end project that simulates an e-commerce product page.
+
+## 🚀 Live Demo
+
+👉 [Click here to view the live site](https://yasshh18.github.io/pokemon-shop/)
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- Google Fonts (Montserrat)
+- GitHub Pages (for hosting)
+
+## 📸 Screenshot
+
+![Screenshot](pikachu.png)
+
+## 📂 Folder Structure
+
