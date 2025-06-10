@@ -4,7 +4,7 @@ A clean and dark-themed single-page product layout featuring **Pikachu**, built 
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the live site](https://yasshh18.github.io/pokemon-shop/)
+👉 [Click here to view the live site](https://yasshhh18.github.io/Pokemon-Shop/)
 
 ## 🛠️ Technologies Used
 
